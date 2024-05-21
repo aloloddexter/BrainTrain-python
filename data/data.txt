@@ -1,0 +1,12 @@
+isFirebaseConnected = False
+firebaseUsername = null
+isUserInCredentialScreen = False
+selectedDifficulty = null
+questionSize = 0
+isGameStarted = False
+isStopwatchPaused = False
+isUserInGame = False
+currentQuestionNumber = 0
+answer = 0
+minInteger = 0
+maxInteger = 0
