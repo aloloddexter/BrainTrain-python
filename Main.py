@@ -15,6 +15,7 @@ class BrainTrain(Tk):
 
         dataPath = "data"  # Define the data path for image files
 
+        
         self.BGMusic = lambda: winsound.PlaySound(f"{dataPath}/sounds/BGMusic.wav", winsound.SND_FILENAME | winsound.SND_ASYNC | winsound.SND_LOOP)
         self.gameFinishMusic = lambda: winsound.PlaySound(f"{dataPath}/sounds/GameFinish.wav", winsound.SND_FILENAME | winsound.SND_ASYNC | winsound.SND_LOOP)
         self.gameStartMusic = lambda: winsound.PlaySound(f"{dataPath}/sounds/GameStart.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
