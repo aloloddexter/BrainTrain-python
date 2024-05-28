@@ -11,7 +11,7 @@ class BrainTrain(Tk):
         self.title("Brain Training")
         self.geometry("1366x768")
         self.attributes("-fullscreen", False)
-        self.wm_iconbitmap("data/images/AceMath.ico")
+       
 
         dataPath = "data"  # Define the data path for image files
 
